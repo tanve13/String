@@ -11,8 +11,7 @@ public class NumberOfSegmentInString {
             return count;
         }
     }
-
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.countSegments("Hello, my name is John")); // 5
         System.out.println(sol.countSegments("    ")); // 0
