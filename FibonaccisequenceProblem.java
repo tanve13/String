@@ -20,8 +20,7 @@ public class FibonaccisequenceProblem {
         int n1 = 2;
         int n2 = 3;
         int n3 = 5;
-
-        System.out.println("Number of ways to climb " + n1 + " stairs: " + sol.climbStairs(n1));
+           System.out.println("Number of ways to climb " + n1 + " stairs: " + sol.climbStairs(n1));
         System.out.println("Number of ways to climb " + n2 + " stairs: " + sol.climbStairs(n2));
         System.out.println("Number of ways to climb " + n3 + " stairs: " + sol.climbStairs(n3));
     }
