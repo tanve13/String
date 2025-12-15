@@ -19,8 +19,7 @@ public class FindUniqueCharacterInString {
             return -1; // No unique character
         }
     }
-
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         Solution sol = new Solution();
 
         String s1 = "leetcode";
