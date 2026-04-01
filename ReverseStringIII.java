@@ -10,7 +10,7 @@ class Solution {
             }
         }
         
-        return new String(arr);
+    return new String(arr);
     }
      private void reverse(char[] arr, int left, int right) {
         while (left < right) {
