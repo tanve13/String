@@ -1,2 +1,2 @@
-# String concept
+# String concepts
 
