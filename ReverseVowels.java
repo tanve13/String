@@ -27,7 +27,6 @@ public class ReverseVowels {
         return new String(chars);
     }
 
-    // ✅ Main method to test
     public static void main(String[] args) {
         ReverseVowels sol = new ReverseVowels();
 
