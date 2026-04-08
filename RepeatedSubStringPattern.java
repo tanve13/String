@@ -19,8 +19,7 @@ public class RepeatedSubStringPattern {
             return (length > 0 && n % (n - length) == 0);
         }
     }
-
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.repeatedSubstringPattern("abab")); // true
         System.out.println(sol.repeatedSubstringPattern("aba"));  // false
