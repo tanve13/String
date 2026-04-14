@@ -15,7 +15,7 @@ public class RepeatedSubStringPattern {
                 }
             }
 
-            int length = lps[n - 1];
+         int length = lps[n - 1];
             return (length > 0 && n % (n - length) == 0);
         }
     }
