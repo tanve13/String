@@ -16,6 +16,6 @@ public class ReverseString {
         ReverseString sol = new ReverseString();
         char[] s = {'h', 'e', 'l', 'l', 'o'};
         sol.reverseString(s);
-        System.out.println(s);  // Output: olleh
+        System.out.println(s); 
     }
 }
