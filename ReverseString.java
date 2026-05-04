@@ -11,8 +11,8 @@ public class ReverseString {
             right--;
         }
     }
-
- public static void main(String[] args) {
+ 
+  public static void main(String[] args) {
         ReverseString sol = new ReverseString();
         char[] s = {'h', 'e', 'l', 'l', 'o'};
         sol.reverseString(s);
