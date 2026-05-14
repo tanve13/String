@@ -17,7 +17,6 @@ class Solution {
         return true;
     }
 }
-
 public class ValidAnagram {
     public static void main(String[] args) {
         Solution sol = new Solution();
