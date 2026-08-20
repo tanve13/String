@@ -14,7 +14,9 @@ public class ConvertNumberToHexaDecimal {
 
             return sb.reverse().toString();
         } 
-    }  
+    }   
+
+    
 
     public static void main(String[] args) {
         Solution sol = new Solution();
