@@ -11,10 +11,9 @@ public class ConvertNumberToHexaDecimal {
                 sb.append(map[num & 15]);         // take last 4 bits
                 num >>>= 4;                       // unsigned right shift
             }
-
             return sb.reverse().toString();
         } 
-    }   
+    }    
          
     
 
