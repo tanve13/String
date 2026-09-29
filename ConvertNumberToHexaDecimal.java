@@ -9,18 +9,13 @@ public class ConvertNumberToHexaDecimal {
 
             while (num != 0 && sb.length() < 8) {  // max 8 hex chars for 32-bit
                 sb.append(map[num & 15]);         // take last 4 bits
-                num >>>= 4;                       // unsigned right shift
+                num >>>= 4;                      
+                
             }
             return sb.reverse().toString();
         } 
     }    
-                  
-          
-
-            
-    
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Solution sol = new Solution();
 
         int n1 = 26;
